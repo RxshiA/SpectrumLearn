@@ -7,15 +7,18 @@ import {
   StyleSheet,
   Alert,
 } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const LoginScreen: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigation = useNavigation<any>();
 
   const handleLogin = () => {
     if (email && password) {
       // Simulate API call
       Alert.alert('Login Success!', `Welcome, ${email}`);
+      navigation.navigate('Selection');
     } else {
       Alert.alert('Error', 'Please enter both email and password.');
     }
