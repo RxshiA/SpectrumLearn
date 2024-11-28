@@ -28,4 +28,4 @@ jobs:
         run: |
           cd ios
           pod install
-          xcodebuild -workspace AutismApp.xcworkspace -scheme AutismApp -sdk iphonesimulator
+          xcodebuild -workspace SpectrumLearn.xcworkspace -scheme SpectrumLearn -sdk iphonesimulator
