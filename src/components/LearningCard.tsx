@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
-import { Feather } from '@expo/vector-icons';
+import Feather from 'react-native-vector-icons/Feather';
 
 interface LearningCardProps {
     title: string;

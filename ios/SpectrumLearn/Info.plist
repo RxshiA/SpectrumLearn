@@ -26,6 +26,10 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Feather.ttf</string>
+	</array>
 	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
