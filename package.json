@@ -10,11 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@expo/vector-icons": "^14.0.4",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native-stack": "^7.1.8",
-    "expo-linear-gradient": "^14.0.1",
-    "expo-modules-core": "^2.0.6",
     "react": "18.3.1",
     "react-native": "0.76.3",
     "react-native-gesture-handler": "^2.21.2",
